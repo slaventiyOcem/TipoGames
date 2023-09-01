@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/bg/cat-girl.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 50px;
+}
+.wrapper_tab{
+    padding: 0 30px 0 45px;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    top: -1px;
+    left: 0;
+}
+.logo{
+    padding-top: 10px;
+    font-family: 'Pacifico', cursive;
+    background-color: #b50d0b;
+    color: #eeefe4;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+
+}
+.expand_tab{
+    display: flex;
+    width: 530px;
+    height: 50px;
+    background-color: white;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 1px 1px 0 #6a6d68;
+}
+.tab{
+    padding-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 0 0 12px 12px;
+    text-align: center;
+    font-size: 18px;
+}
+.tab>a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+ul>li{
+    position: relative;
+    list-style: none;
+}
+
+.tab>ul>li>ul{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: none;
+    background-color: #b50d0b;
+}
+.tab>ul>li>ul>li>a{
+    font-size: 15px;
+    text-align: center;
+}
+.tab>ul>li:hover>ul{
+    border-radius:0 0 12px 12px ;
+    width: 145px;
+    padding-top: 10px ;
+    height: 80px;
+    background-color: white;
+    display: block;
+}
+div>.tab:hover{
+    background-color: #b50d0b;
+    border-radius: 0;
+}
+.tab>a:hover{
+    color: white;
+}
+.wrapper_mobile{
+}
+.wrapper_mobile>ul>li>img {
+    height: 50px;
+    margin-left: 100px;
+    background: white;
+    border-radius: 0 0 12px 12px;
+}
+ul>li>a{
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 30px 20px;
+}
+ul>li>a:hover{
+    color: red
+}
+.wrapper_mobile{
+    display: none;
+}
+.wrapper_mobile>ul>li>ul{
+    background: white;
+    border-radius: 15px;
+    width: 150px;
+}
+.wrapper_m_link{
+    width: 100%;
+    background: white;
+}
+.wrapper_mobile>ul>li>ul{
+    padding:15px 0 15px 0;
+    display: none;
+    position: absolute;
+}
+.wrapper_mobile>ul>li:hover>ul{
+    display: block;
+
+}
+.expand_tab>div:nth-child(1):hover{
+    background-color: #b50d0b;
+    border-radius: 0 0 0 12px;
+}
+.expand_tab>div:nth-child(4):hover{
+    background-color: #b50d0b;
+    border-radius: 0 0 12px 0;
+}
+header{
+    padding: 100px 50px 0 50px;
+}
+header>h1{
+    font-size: 70px;
+    color: #17052e;
+}
+header>p{
+    font-size: 30px;
+    color: #17052e;
+}
+.link_shop{
+    margin-top: 40px;
+}
+.link_shop>img{
+    margin-right: 20px;
+}
+.blocks{
+    gap: 30px;
+    margin: 150px 0 0 0 ;
+}
+.img{
+    background-image: url("../img/c837a6_d5b3b2009d894fa2932bc20684b2a93d_mv2.png");
+}
+.img_two{
+    background-image: url("../img/c837a6_bf93fe6ee32a41b2b69211460f928b15_mv2.png");
+}
+.img_three{
+    background-image: url("../img/c837a6_f49b2d5464854cc18b19c7e183d05e2c_mv2.png");
+}
+.blocks>.img,.img_two,.img_three{
+    margin-right: 20px;
+    float: left;
+    border-radius: 20px;
+    width: 427px;
+    height: 568px;
+}
+div>img{
+    border-radius: 30px;
+}
+.color{
+    background-color: rgba(255, 128, 179, 0.5);
+    padding: 480px 50px 42px 50px;
+    border-radius: 20px;
+}
+.color>h3{
+    font-size: 25px;
+    color: white;
+}
+.color:hover{
+    background: none;
+}
+.img:hover{
+    background-size: 110% 110%;
+    transition: 0.5s;
+    transition-duration: 2s;
+}
+.img_two:hover{
+    background-size: 110% 110%;
+}
+.img_three:hover{
+    background-size: 110% 110%;
+}
+
+.img>.color:hover{
+    display: none;
+    transition: 1s;
+}
+.img_two>.color:hover{
+    display: none;
+    transition: 1s;
+}
+.img_three>.color:hover{
+    display: none;
+    transition: 1s;
+}
+.color>p{
+    color: #eeefe4;
+
+}
+.img>p{
+    font-size: 15px;
+    color: white;
+
+}
+.block_games{
+    padding-top: 200px;
+    float: left;
+    width: 427px;
+    height: 367px;
+    background: linear-gradient(180deg, #FFE27D 0%, #9f4409 100%);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 65px;
+    align-items: center;
+
+}
+.block_games:hover{
+    font-size: 70px;
+    background:  #ffee70;
+    transition: 0.5s;
+
+}
+@media (max-width: 600px){
+    body {
+        background-image: url('../img/bg/cat-girl.jpg');
+        background-size: 610px 420px;
+    }
+    header{
+        padding: 0 88px 0 88px;
+    }
+    .logo{
+        width: 200px;
+        height: 50px;
+    }
+    .wrapper_mobile{
+        display: block;
+    }
+    .wrapper_tab{
+        padding: 0 10px 0 10px;
+    }
+        .expand_tab{
+            display: none;
+        }
+        .blocks{
+            display: inline-block;
+            gap: 20px;
+            margin: 20px 0 0 -57px;
+    }
+    .blocks>.img,.img_two,.img_three{
+        margin: 20px 0 0 0 ;
+    }
+    .block_games {
+        margin-top: 20px;
+    }
+        .color{
+            margin-bottom: 20px ;
+
+        }
+    .link_shop{
+        margin-top: 30px;
+    }
+
+}
+
